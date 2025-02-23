@@ -44,7 +44,7 @@ export default function Contato() {
             <Form ref={formRef} onSubmit={handleSubmit} >
               <Row className="justify-content-center">
               <Col sm={8} md={8} lg={8}>
-              <Form.Group className="d-flex align-items-center mb-3">
+              <Form.Group className="d-flex align-items-center mb-1">
                     <Form.Label className="label" style={{ width: "120px" }}>
                       Nome:
                     </Form.Label>
@@ -57,7 +57,7 @@ export default function Contato() {
                   </Form.Group>
                 </Col>
                 <Col xs={12} sm={8} md={8} lg={8} >
-                <Form.Group className="d-flex align-items-center mb-3">
+                <Form.Group className="d-flex align-items-center mb-1">
                     <Form.Label className="label" style={{ width: "120px" }}>
                       Email:
                     </Form.Label>
@@ -70,7 +70,7 @@ export default function Contato() {
                   </Form.Group>
                 </Col>
                 <Col xs={12} sm={8} md={8} lg={8} >
-                <Form.Group className="d-flex align-items-center mb-3">
+                <Form.Group className="d-flex align-items-center mb-1">
                     <Form.Label className="label" style={{ width: "120px" }}>
                       Celular:
                     </Form.Label>
