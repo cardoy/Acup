@@ -83,7 +83,7 @@ export default function Contato() {
                   </Form.Group>
                 </Col>
                 <Col xs={12} sm={8} md={8} lg={8} className="text-center">
-                <Form.Group className="d-flex align-items-center mb-3">
+                <Form.Group className="d-flex align-items-center">
                     <Form.Label className="label" style={{ width: "120px" }}>
                       Mensagem:
                     </Form.Label>
@@ -106,7 +106,7 @@ export default function Contato() {
                       </div>
                     </div>
 
-                  <Button type="submit" variant="success" className="botao ">
+                  <Button type="submit" variant="success" className="botao mt-1">
                           Enviar
                   </Button>
                </Col>
