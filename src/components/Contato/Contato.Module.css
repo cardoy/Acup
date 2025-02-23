@@ -1,0 +1,11 @@
+
+.botao {
+   border-color:   black !important; /* Cor personalizada para a borda */
+   background-color: rgb(182, 213, 177) !important; /* Cinza claro com transparência */
+   color: black !important;
+}
+ 
+ .botao:hover {
+   background-color: rgba(154, 147, 147, 0.8) !important; /* Cor personalizada ao passar o mouse */
+   border-color: rgba(92, 91, 91, 0.8) !important; /* Cor personalizada da borda ao passar o mouse */
+ }

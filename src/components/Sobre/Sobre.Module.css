@@ -1,0 +1,31 @@
+.bodySobre {
+    display: flex !important;
+    flex-direction: column !important;
+
+  }
+  .carlos2 {
+    border-radius: 15px !important;
+  }
+  .cabeca {
+    
+    width: 98% !important; /* Ocupa 50% da largura da tela */
+    margin: 0 auto !important; /* Centraliza horizontalmente */
+    text-align: center !important; /* Centraliza o texto dentro da div */
+}
+@media(max-width:450px){
+  h2{
+    font-size: 18px !important;
+  }
+  h5{
+    font-size: 14px !important;
+  }
+
+}
+@media (max-width: 400px) {
+  h2 {
+    font-size: 16px !important;
+  }
+  h5 {
+    font-size: 12px !important;
+  }
+}
