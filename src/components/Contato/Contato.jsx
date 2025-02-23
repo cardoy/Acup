@@ -38,7 +38,7 @@ export default function Contato() {
   return (
     <div className="corpoCon">
       <Container fluid >
-        <Row className="justify-content-center my-4">
+        <Row className="justify-content-center my-2">
         <Col xs={12} sm={8} md={8} lg={8} className="text-center">
         <hr />
             <Form ref={formRef} onSubmit={handleSubmit} >
